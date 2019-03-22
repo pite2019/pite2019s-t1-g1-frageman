@@ -16,6 +16,7 @@ class Matrix:
         self.matrix[0][1] += second_matrix[0][1]
         self.matrix[1][0] += second_matrix[1][0]
         self.matrix[1][1] += second_matrix[1][1]
+        return self
 
     def product(self):
         for i in self.matrix:
