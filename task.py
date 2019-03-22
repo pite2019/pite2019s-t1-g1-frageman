@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 #Write a library that contains a class that can represent any 2𝑥2 real matrice. 
 #Include two functions to calculate the sum and product of two matrices. 
 #Next, write a program that imports this library module and use it to perform calculations.
@@ -23,3 +25,10 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+from matrix import Matrix
+
+matrix_1 = Matrix(4,5,6,7)
+matrix_2 = Matrix(2,2,2,1)
+matrix_3 = matrix_2.add(matrix_1)
+matrix_3.product()
