@@ -26,9 +26,17 @@
 #Delete these comments before commit!
 #Good luck.
 
+
 from matrix import Matrix
 
-matrix_1 = Matrix(4,5,6,7)
-matrix_2 = Matrix(2,2,2,1)
-matrix_3 = matrix_2.add(matrix_1)
-#matrix_3.product()
+m1 = Matrix(2,2,2,2)
+m2 = Matrix(3,3,3,3)
+
+m3 = m1 + m2
+#m3 = m1 - m2
+#m3 = m1 @ m2
+#m3 += m2
+#m3 -= m2
+#m3 = m2 + [1,1,1,1]
+
+m3.print()
